@@ -1,26 +1,32 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #d2dffc;
-  line-height: 1.35em;
-  margin-left: 1.563em;
-  margin-right: 1.563em;
+  color: #ececec;
+  background: #353238;
+  margin-left: 100px;
+  margin-right: 100px;
+  line-height: 130%;
 }
 
 h1 {
-  margin-left: 25px;
+  text-align: center;
 }
 
 blockquote {
-  border: 0.063em;
-  border-color: grey;
+  margin-left: 50px;
+  width: 600px;
+  border: 1px;
+  border-color: #b4423d;
   border-style: solid;
-  border-radius: 0.313em;
-  background: lightgray;
-  line-height: 1.5em;
+  border-radius: 2px;
+  background: #6c696e;
+  font-style: italic;
+  line-height: 150%;
+  padding: 10px;
 }
 
 a {
   font-weight: bold;
+  color: #b4423d;
 }
 
 a:hover {
@@ -28,14 +34,14 @@ a:hover {
 }
 
 a:visited {
-  color: gray;
+  color: #8c3330;
 }
 
 hr {
-  color: black;
+  color: #642522;
+  height: 1px;
 }
 
 .quote-author {
   text-align: right;
-  font-style: italic;
 }
